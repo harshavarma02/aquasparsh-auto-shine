@@ -1,4 +1,4 @@
-import { Shield, Spray, Car, Paint } from 'lucide-react';
+import { Car, Shield, Paintbrush, Sparkles } from 'lucide-react';
 
 const Services = () => {
   const services = [
@@ -13,12 +13,12 @@ const Services = () => {
       description: "Premium protection for your vehicle's paint against scratches and damage.",
     },
     {
-      icon: <Spray className="w-8 h-8" />,
+      icon: <Paintbrush className="w-8 h-8" />,
       title: "Ceramic Coating",
       description: "Long-lasting protection and shine for your vehicle's exterior.",
     },
     {
-      icon: <Paint className="w-8 h-8" />,
+      icon: <Sparkles className="w-8 h-8" />,
       title: "Car Detailing",
       description: "Comprehensive cleaning and restoration of your vehicle inside and out.",
     },
