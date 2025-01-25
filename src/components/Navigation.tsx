@@ -16,7 +16,12 @@ const Navigation = () => {
     <nav className="fixed w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
-          <div className="flex items-center">
+          <div className="flex items-center space-x-2">
+            <img 
+              src="/lovable-uploads/956c1a0c-037f-44b2-89c9-df162168fe01.png" 
+              alt="AquaSparsh Logo" 
+              className="h-10 w-auto"
+            />
             <span className="text-xl font-bold text-secondary">AquaSparsh</span>
           </div>
           
