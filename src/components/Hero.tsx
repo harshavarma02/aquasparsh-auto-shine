@@ -51,7 +51,7 @@ const Hero = () => {
         </motion.div>
       </div>
       
-      <div className="w-full z-20 mt-8">
+      <div className="w-full z-20">
         <GridMotion items={items} />
       </div>
     </div>
