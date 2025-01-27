@@ -22,8 +22,8 @@ const ImportantLinks = () => {
                 <NavigationMenuContent>
                   <div className="min-w-[200px] bg-secondary p-2 rounded-md">
                     <NavigationMenuLink asChild>
-                      <a href="#brochures" className="block px-4 py-2 text-white hover:text-primary transition-colors rounded-md">
-                        Brochures
+                      <a href="#menu" className="block px-4 py-2 text-white hover:text-primary transition-colors rounded-md">
+                        Menu
                       </a>
                     </NavigationMenuLink>
                     <NavigationMenuLink asChild>
@@ -53,46 +53,14 @@ const ImportantLinks = () => {
           </NavigationMenu>
         </div>
 
-        <div id="brochures" className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div id="menu" className="grid grid-cols-1 md:grid-cols-1 gap-8">
           <Card className="overflow-hidden hover:shadow-lg transition-shadow">
             <CardContent className="p-0">
               <img 
-                src="/lovable-uploads/e894d00e-0e73-43aa-9060-67f93ce687f7.png" 
-                alt="Service Brochure" 
-                className="w-full h-48 object-cover"
+                src="/lovable-uploads/56470c74-2be8-4529-8603-365b64e3771d.png" 
+                alt="Service Menu" 
+                className="w-full object-contain"
               />
-              <div className="p-4">
-                <h3 className="text-xl font-semibold mb-2">Service Price List</h3>
-                <p className="text-gray-600">View our comprehensive service pricing and packages</p>
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card className="overflow-hidden hover:shadow-lg transition-shadow">
-            <CardContent className="p-0">
-              <img 
-                src="/lovable-uploads/e894d00e-0e73-43aa-9060-67f93ce687f7.png" 
-                alt="PPF Protection Brochure" 
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-4">
-                <h3 className="text-xl font-semibold mb-2">PPF Protection Details</h3>
-                <p className="text-gray-600">Learn about our Paint Protection Film services</p>
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card className="overflow-hidden hover:shadow-lg transition-shadow">
-            <CardContent className="p-0">
-              <img 
-                src="/lovable-uploads/e894d00e-0e73-43aa-9060-67f93ce687f7.png" 
-                alt="Car Detailing Brochure" 
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-4">
-                <h3 className="text-xl font-semibold mb-2">Car Detailing Services</h3>
-                <p className="text-gray-600">Explore our premium car detailing options</p>
-              </div>
             </CardContent>
           </Card>
         </div>
