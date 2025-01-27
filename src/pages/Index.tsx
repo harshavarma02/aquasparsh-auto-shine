@@ -4,6 +4,7 @@ import Services from "../components/Services";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import ImportantLinks from "../components/ImportantLinks";
+import RecentWorks from "../components/RecentWorks";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <Hero />
       <Services />
       <ImportantLinks />
+      <RecentWorks />
       <Contact />
       <Footer />
     </div>
