@@ -1,64 +1,52 @@
-import { Mail, Send } from 'lucide-react';
+import { useState } from 'react';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-white">
+    <section id="contact" className="py-20 bg-gray-900">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Contact Us</h2>
-        
-        <div className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-md">
-          <form className="space-y-6">
-            <div>
-              <label htmlFor="fullName" className="block text-sm font-medium text-gray-700 mb-1">Your full name *</label>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="w-full h-[400px] rounded-lg overflow-hidden">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.4477347462447!2d78.53892807487555!3d17.487954183800283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9bd8bc796473%3A0x3da70b029146b89e!2sTotalEnergies%20-%20AquaSparsh%20Car%20Spa!5e0!3m2!1sen!2sin!4v1706913425484!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          
+          <div className="flex flex-col">
+            <h2 className="text-4xl font-bold text-white mb-4">Contact Us</h2>
+            <p className="text-gray-400 mb-8">We'd love to hear from you! Fill out the form below to get in touch.</p>
+            <form className="space-y-4">
               <input
-                id="fullName"
                 type="text"
-                placeholder="Name"
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                placeholder="Your Name"
+                className="p-3 rounded bg-gray-800 border border-gray-700 text-white"
                 required
               />
-            </div>
-            
-            <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Your email *</label>
               <input
-                id="email"
                 type="email"
-                placeholder="Email"
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                placeholder="Your Email"
+                className="p-3 rounded bg-gray-800 border border-gray-700 text-white"
                 required
               />
-            </div>
-            
-            <div>
-              <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-1">Company *</label>
-              <input
-                id="company"
-                type="text"
-                placeholder="Company"
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
-                required
-              />
-            </div>
-            
-            <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message *</label>
               <textarea
-                id="message"
-                placeholder="Message"
+                placeholder="Your Message"
+                className="p-3 rounded bg-gray-800 border border-gray-700 text-white"
                 rows={4}
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
                 required
               ></textarea>
-            </div>
-            
-            <button
-              type="submit"
-              className="w-full bg-primary text-white py-3 px-6 rounded-md hover:bg-primary/90 transition-colors flex items-center justify-center gap-2"
-            >
-              Submit <Send className="w-4 h-4" />
-            </button>
-          </form>
+              <button
+                type="submit"
+                className="w-full p-3 rounded bg-cyan-400 hover:bg-cyan-500 text-white"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </section>
