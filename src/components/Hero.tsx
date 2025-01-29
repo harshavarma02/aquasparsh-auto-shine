@@ -18,16 +18,18 @@ const Hero = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="#services"
+              href="/services"
               className="bg-white text-primary px-8 py-3 rounded-md hover:bg-opacity-90 transition-colors duration-200"
             >
               Our Services
             </a>
             <a
-              href="#contact"
+              href="/links"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-md hover:bg-white/10 transition-colors duration-200"
             >
-              Contact Us
+              Important Links
             </a>
           </div>
         </motion.div>
