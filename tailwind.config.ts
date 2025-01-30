@@ -17,14 +17,14 @@ export default {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
+        background: "#000000",
         foreground: "hsl(var(--foreground))",
         primary: {
           DEFAULT: "#60A5FA",
           foreground: "#FFFFFF",
         },
         secondary: {
-          DEFAULT: "#1E293B",
+          DEFAULT: "#000000",
           foreground: "#FFFFFF",
         },
         destructive: {
