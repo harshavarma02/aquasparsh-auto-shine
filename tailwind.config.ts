@@ -17,14 +17,14 @@ export default {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
+        background: "#000000",
+        foreground: "#FFFFFF",
         primary: {
-          DEFAULT: "#60A5FA",
+          DEFAULT: "#9b87f5",
           foreground: "#FFFFFF",
         },
         secondary: {
-          DEFAULT: "#1E293B",
+          DEFAULT: "#1A1F2C",
           foreground: "#FFFFFF",
         },
         destructive: {
@@ -32,12 +32,12 @@ export default {
           foreground: "hsl(var(--destructive-foreground))",
         },
         muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
+          DEFAULT: "#2A2A2A",
+          foreground: "#A0A0A0",
         },
         accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
+          DEFAULT: "#6E59A5",
+          foreground: "#FFFFFF",
         },
       },
       borderRadius: {
@@ -49,7 +49,7 @@ export default {
         "fade-up": {
           "0%": {
             opacity: "0",
-            transform: "translateY(10px)",
+            transform: "translateY(20px)",
           },
           "100%": {
             opacity: "1",
@@ -59,7 +59,7 @@ export default {
         "fade-down": {
           "0%": {
             opacity: "0",
-            transform: "translateY(-10px)",
+            transform: "translateY(-20px)",
           },
           "100%": {
             opacity: "1",
@@ -68,8 +68,8 @@ export default {
         },
       },
       animation: {
-        "fade-up": "fade-up 0.5s ease-out",
-        "fade-down": "fade-down 0.5s ease-out",
+        "fade-up": "fade-up 0.6s ease-out",
+        "fade-down": "fade-down 0.6s ease-out",
       },
     },
   },
