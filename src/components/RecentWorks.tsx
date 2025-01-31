@@ -15,11 +15,11 @@ const RecentWorks = () => {
   }, []);
 
   return (
-    <section id="recent-works" className="py-16 bg-[#1A1F2C]">
+    <section id="recent-works" className="py-16 bg-[#0A0F1A]">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12 text-white">Recent Works</h2>
+        <h2 className="text-3xl font-bold text-center mb-12 text-gradient">Recent Works</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <Card className="overflow-hidden bg-[#222222] border-gray-700">
+          <Card className="overflow-hidden bg-[#0D1425] border-blue-900/20">
             <blockquote
               className="instagram-media"
               data-instgrm-captioned
@@ -29,7 +29,7 @@ const RecentWorks = () => {
             </blockquote>
           </Card>
           
-          <Card className="overflow-hidden bg-[#222222] border-gray-700">
+          <Card className="overflow-hidden bg-[#0D1425] border-blue-900/20">
             <blockquote
               className="instagram-media"
               data-instgrm-captioned
@@ -39,7 +39,7 @@ const RecentWorks = () => {
             </blockquote>
           </Card>
           
-          <Card className="overflow-hidden bg-[#222222] border-gray-700">
+          <Card className="overflow-hidden bg-[#0D1425] border-blue-900/20">
             <blockquote
               className="instagram-media"
               data-instgrm-captioned
