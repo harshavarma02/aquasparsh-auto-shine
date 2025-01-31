@@ -3,17 +3,9 @@ import { ArrowRight } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center text-white px-4 py-20 overflow-hidden">
-      {/* Background image with overlay */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: 'url("/lovable-uploads/efe89caf-0b3b-4488-9dc6-0e166bbbf991.png")',
-        }}
-      />
-      
-      {/* Dark overlay for better text readability */}
-      <div className="absolute inset-0 bg-black/50" />
+    <section className="relative min-h-screen bg-black flex items-center justify-center text-white px-4 py-20 overflow-hidden">
+      {/* Background gradient effect */}
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-black pointer-events-none" />
       
       {/* Animated circles for visual interest */}
       <div className="absolute -top-40 -right-40 w-80 h-80 rounded-full bg-blue-500/10 blur-3xl" />
